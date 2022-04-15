@@ -121,6 +121,8 @@ p {
   }
 }
 /*  global classes */
+
+/* section */
 .section {
   width: 90vw;
   margin: 0 auto;
@@ -132,7 +134,6 @@ p {
     width: 95vw;
   }
 }
-
 .btn {
   background: var(--clr-primary-5);
   display: inline-block;
@@ -146,17 +147,19 @@ p {
   margin-top: 2rem;
   font-size: 1.2rem;
 }
-
+/*
+=============== 
+Tours
+===============
+*/
 main {
   width: 90vw;
   max-width: var(--fixed-width);
   margin: 5rem auto;
 }
-
 .loading {
   text-align: center;
 }
-
 .title {
   text-align: center;
   margin-bottom: 4rem;
