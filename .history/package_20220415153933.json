@@ -1,7 +1,7 @@
 {
   "name": "tours",
   "version": "0.2.0",
-  "homepage": "https://github.com/bodescuanamariia/tours",
+  "homepage": "",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.16.0",
@@ -60,8 +60,6 @@
     "workbox-webpack-plugin": "^6.4.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
